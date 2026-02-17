@@ -21,7 +21,17 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <a href="#" className="flex items-center gap-3 group">
+            <a 
+              href="/" 
+              className="flex items-center gap-3 group"
+              onClick={(e) => {
+                // If already on home page, scroll to top smoothly
+                if (window.location.pathname === '/') {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              }}
+            >
               {/* Logo Mark */}
               <div className="relative w-10 h-10">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl rotate-6 group-hover:rotate-12 transition-transform duration-300 opacity-80"></div>
@@ -36,7 +46,6 @@ export default function Navbar() {
               {/* Logo Text */}
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-gray-900 tracking-tight leading-none">diaspora</span>
-                <span className="text-[10px] font-semibold text-primary-600 tracking-[0.2em] uppercase leading-none mt-1">health</span>
               </div>
             </a>
           </div>
@@ -62,10 +71,10 @@ export default function Navbar() {
               How It Works
             </a>
             <a 
-              href="#contact" 
+              href="/schedule" 
               className="px-5 py-2.5 bg-primary-600 text-white rounded-lg text-sm font-semibold hover:bg-primary-700 transition-all duration-200"
             >
-              Get Started
+              Schedule Demo
             </a>
           </div>
 
@@ -128,11 +137,11 @@ export default function Navbar() {
               How It Works
             </a>
             <a
-              href="#contact"
+              href="/schedule"
               className="block px-4 py-3 bg-primary-600 text-white rounded-lg text-center text-sm font-semibold mt-2"
               onClick={() => setIsOpen(false)}
             >
-              Get Started
+              Schedule Demo
             </a>
           </div>
         </div>

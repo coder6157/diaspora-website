@@ -15,8 +15,8 @@ export default function Solution() {
         </div>
 
         {/* Core Features */}
-        <div className="grid md:grid-cols-3 gap-8 mb-24">
-          <div className="group relative bg-white p-8 rounded-2xl border-2 border-gray-200 hover:border-primary-400 transition-all duration-300 hover:shadow-xl">
+        <div className="grid md:grid-cols-3 gap-8 mb-32">
+          <div className="group relative bg-white p-8 rounded-2xl border border-gray-200 hover:border-primary-300 transition-all duration-300 hover:shadow-xl">
             <div className="absolute -top-4 left-8 px-4 py-1 bg-primary-600 text-white text-xs font-bold rounded-full">
               INSTANT
             </div>
@@ -27,14 +27,14 @@ export default function Solution() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-3">Immediate Estimates</h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Enter patient plan details at intake. Receive instant estimates of expected payer reimbursement and patient responsibility—before you commit clinical capacity.
+              Enter patient plan details at intake. Receive instant estimates of expected payer reimbursement and patient responsibility—before you make admission decisions.
             </p>
-            <div className="pt-4 border-t border-gray-200 mt-6">
+            <div className="pt-4 border-t border-gray-100 mt-6">
               <span className="text-sm font-semibold text-primary-600">Real-time prediction engine</span>
             </div>
           </div>
 
-          <div className="group relative bg-white p-8 rounded-2xl border-2 border-gray-200 hover:border-primary-400 transition-all duration-300 hover:shadow-xl">
+          <div className="group relative bg-white p-8 rounded-2xl border border-gray-200 hover:border-primary-300 transition-all duration-300 hover:shadow-xl">
             <div className="absolute -top-4 left-8 px-4 py-1 bg-primary-600 text-white text-xs font-bold rounded-full">
               ACCURATE
             </div>
@@ -47,12 +47,12 @@ export default function Solution() {
             <p className="text-gray-600 leading-relaxed mb-4">
               Built on what payers have actually reimbursed for similar patients, plans, procedures, and geographies—not theoretical rates or benefit summaries.
             </p>
-            <div className="pt-4 border-t border-gray-200 mt-6">
+            <div className="pt-4 border-t border-gray-100 mt-6">
               <span className="text-sm font-semibold text-blue-600">Historical outcomes database</span>
             </div>
           </div>
 
-          <div className="group relative bg-white p-8 rounded-2xl border-2 border-gray-200 hover:border-primary-400 transition-all duration-300 hover:shadow-xl">
+          <div className="group relative bg-white p-8 rounded-2xl border border-gray-200 hover:border-primary-300 transition-all duration-300 hover:shadow-xl">
             <div className="absolute -top-4 left-8 px-4 py-1 bg-primary-600 text-white text-xs font-bold rounded-full">
               ACTIONABLE
             </div>
@@ -63,55 +63,55 @@ export default function Solution() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-3">Risk Assessment</h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Understand financial risk before committing clinical capacity. Have honest financial conversations with patients from day one.
+              Understand financial risk before accepting a patient. Have honest financial conversations with patients from day one.
             </p>
-            <div className="pt-4 border-t border-gray-200 mt-6">
+            <div className="pt-4 border-t border-gray-100 mt-6">
               <span className="text-sm font-semibold text-purple-600">Pre-admission risk scoring</span>
             </div>
           </div>
         </div>
 
         {/* Benefits with Stats */}
-        <div className="space-y-24">
+        <div className="space-y-32">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
-              <div className="inline-block px-4 py-1.5 bg-green-50 border border-green-200 rounded-full text-green-700 text-sm font-medium mb-4">
+              <div className="inline-block px-4 py-1.5 bg-green-50 border border-green-200 rounded-full text-green-700 text-sm font-medium mb-6">
                 Revenue Impact
               </div>
-              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 Increase Net Collections
               </h3>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
                 Avoid reimbursement surprises and unlock revenue with predictions built on real payment outcomes. Proactively prevent revenue shortfalls with financial clarity at intake.
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-0.5">
+              <ul className="space-y-5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Reduce write-offs by identifying high-risk cases upfront</span>
+                  <span className="text-gray-600 text-lg">Reduce write-offs by identifying high-risk cases upfront</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-0.5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Make informed admission decisions the first time</span>
+                  <span className="text-gray-600 text-lg">Make informed admission decisions the first time</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-0.5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Optimize payer mix based on actual reimbursement patterns</span>
+                  <span className="text-gray-600 text-lg">Optimize payer mix based on actual reimbursement patterns</span>
                 </li>
               </ul>
             </div>
-            <div className="order-1 lg:order-2 bg-gradient-to-br from-green-50 to-emerald-50 p-12 rounded-3xl border border-green-200">
+            <div className="order-1 lg:order-2 bg-gradient-to-br from-green-50 to-emerald-50 p-12 rounded-3xl border border-green-100">
               <div className="text-center">
                 <div className="inline-block mb-6">
                   <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-xl shadow-green-500/20 mb-4">
@@ -131,7 +131,7 @@ export default function Solution() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-12 rounded-3xl border border-blue-200">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-12 rounded-3xl border border-blue-100">
               <div className="text-center">
                 <div className="inline-block mb-6">
                   <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-xl shadow-blue-500/20 mb-4">
@@ -146,39 +146,39 @@ export default function Solution() {
               </div>
             </div>
             <div>
-              <div className="inline-block px-4 py-1.5 bg-blue-50 border border-blue-200 rounded-full text-blue-700 text-sm font-medium mb-4">
+              <div className="inline-block px-4 py-1.5 bg-blue-50 border border-blue-200 rounded-full text-blue-700 text-sm font-medium mb-6">
                 Risk Management
               </div>
-              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 Decrease Financial Risk
               </h3>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                Dramatically reduce uncertainty at the moment of admission. Know your financial risk before committing clinical capacity to high-cost, long-duration care.
+                Dramatically reduce uncertainty at the moment of admission. Know your financial risk before accepting high-cost, long-duration care patients.
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mt-0.5">
+              <ul className="space-y-5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Understand true financial exposure before day one</span>
+                  <span className="text-gray-600 text-lg">Understand true financial exposure before day one</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mt-0.5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Set accurate patient expectations from intake</span>
+                  <span className="text-gray-600 text-lg">Set accurate patient expectations from intake</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mt-0.5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Protect margins on $250K-$500K treatment episodes</span>
+                  <span className="text-gray-600 text-lg">Protect margins on $250K-$500K treatment episodes</span>
                 </li>
               </ul>
             </div>
@@ -186,43 +186,43 @@ export default function Solution() {
 
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
-              <div className="inline-block px-4 py-1.5 bg-purple-50 border border-purple-200 rounded-full text-purple-700 text-sm font-medium mb-4">
+              <div className="inline-block px-4 py-1.5 bg-purple-50 border border-purple-200 rounded-full text-purple-700 text-sm font-medium mb-6">
                 Operational Efficiency
               </div>
-              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 Accelerate Cash Flow
               </h3>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
                 Gain real-time visibility into expected reimbursement at intake. Quickly go from insights to action on high-impact, revenue-driving decisions.
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-0.5">
+              <ul className="space-y-5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Individual patient estimates to facility-level patterns</span>
+                  <span className="text-gray-600 text-lg">Individual patient estimates to facility-level patterns</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-0.5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Streamline pre-authorization and intake workflows</span>
+                  <span className="text-gray-600 text-lg">Streamline pre-authorization and intake workflows</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-0.5">
+                <li className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
                     <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600">Improve collection rates with upfront patient discussions</span>
+                  <span className="text-gray-600 text-lg">Improve collection rates with upfront patient discussions</span>
                 </li>
               </ul>
             </div>
-            <div className="order-1 lg:order-2 bg-gradient-to-br from-purple-50 to-pink-50 p-12 rounded-3xl border border-purple-200">
+            <div className="order-1 lg:order-2 bg-gradient-to-br from-purple-50 to-pink-50 p-12 rounded-3xl border border-purple-100">
               <div className="text-center">
                 <div className="inline-block mb-6">
                   <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center shadow-xl shadow-purple-500/20 mb-4">
